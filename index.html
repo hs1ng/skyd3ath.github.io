@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Kledge Devs</title>
+</head>
+
+<body onload="myFunction(); margin: 0;">
+    <div id="loader"></div>
+    <div id="animate-bottom" style="display: none;">
+        <header id="top-container">
+            <div id="errors"></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">KLEDGE DEVS</a></li>
+                    <li><a href="">BLOG </a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="middle-container">
+            <div id="middle-top">
+                <img src="imagens/imagem_prog.png" alt="">
+                <p>Kledge Devs é um projeto criado por dois amigos estudantes do Rio de Janeiro, com o objetivo de
+                    mostrar o
+                    crescimento como desenvolvedores. O kledge vem de knowledge, que significa conhecimento. </p>
+            </div>
+            <br><br>
+            <!--UM POUCO DE NÓS...-->
+            <div id="presentation-container">
+                <h1 style="text-decoration: underline;">Um pouco de nós...</h1>
+            </div>
+            <div class="profiles">
+                <div id="profile-1">
+                    <img class="" src="imagens/imagem_perfil_lucas.jpg" alt="">
+                    <div class="displayblock">
+                        <a href="https://www.facebook.com/skylineyes1/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/skyd3ath" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lucas-emanuel-087375189/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <hr size="150" width="0">
+                    <p class="description">LUCAS EMANUEL, ESTUDANTE DA UNIVERSIDADE FEDERAL FLUMINENSE DO RIO DE
+                        JANEIRO
+                    </p>
+                </div>
+                <hr size="1" width="500">
+                <div id="profile-2">
+                    <img class="" src="imagens/imagem_perfil_marcos.jpg" alt="">
+                    <div class="displayblock2">
+                        <a href="https://www.facebook.com/marcosjunior.rodrigues.77/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Marcovski" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/marcos-rodrigues-a9baba197/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <hr size="150" width="0">
+                    <p class="description">MARCOS JUNIOR, ESTUDANTE DA UNIVERSIDADE FEDERAL FLUMINENSE DO RIO DE
+                        JANEIRO
+                    </p>
+                </div>
+            </div><br><br><br>
+            <!--CONHECIMENTOS-->
+            <div id="presentation-container">
+                <h1>Nossos conhecimentos atuais</h1>
+                <div class="knowledge">
+                    <img src="https://cdn.evilmartians.com/front/posts/scroll-to-the-future-modern-javascript-css-scrolling-implementations/not_smooth-c523278.gif"
+                        alt="" width=250 />
+                    <p class="description">Atualmente, nós temos conhecimentos básicos(quase intermediários) em HTML e
+                        CSS
+                        e
+                        estamos aprendendo Javascript. <br> Enquanto Lucas deseja seguir a carreira de front-end
+                        developer,
+                        Marcos deseja seguir a carreira de back-end developer.
+                    </p>
+                </div>
+            </div><br><br><br>
+            <!--APRESENTAÇÃO-->
+            <div id="presentation-container">
+                <h1>Uma breve apresentação</h1>
+                <div class="know-us">
+                    <h2 style="color:white;font-style: italic;">Por Marcos</h2>
+                    <i class="fas fa-quote-left" style="font-size: 20px;"></i><span style="font-weight: bolder;"> Tive
+                        meu primeiro contato com o mundo da programação na faculdade. Cursei por um ano Análise e
+                        Desenvolvimento de Sistemas na Universidade Estácio de Sá, e durante esse período adquiri
+                        conhecimentos basicos/intermediarios nas linguagens de programação C++ e Java. Atualmente estou
+                        cursando Sistemas de Informação na Universidade Federal Fluminense e me qualificando para
+                        trabalhar com desenvolvimento Back-End, assim sendo, possuo conhecimentos em HTML, CSS,
+                        Javascript(Básico), PHP(Básico), C++ e
+                        Java.
+                    </span>
+                    <i style="font-size: 20px;" class="fas fa-quote-right"></i>
+                    <hr style="margin-top: 20px; color: black;">
+                    <h2 style="color:white;font-style: italic;">Por Lucas</h2>
+                    <i class="fas fa-quote-left" style="font-size: 20px;"></i><span style="font-weight: bolder;">
+                        Atualmente,
+                        me encontro no 2 período do curso de
+                        Sistemas de Computação da Universidade Federal Fluminense. Tive meu primeiro contato com
+                        programação quando era mais novo, na faixa dos 12 ou 13 anos, quando tentava criar jogos. Possuo
+                        conhecimentos em HTML, CSS e
+                        um
+                        pouco de
+                        Javascript. Desejo seguir a área de front-end developer, que eu gosto muito, porém com
+                        conhecimentos
+                        no
+                        back-end.</span>
+                    <i style="font-size: 20px;" class="fas fa-quote-right"></i>
+                </div>
+            </div><br><br><br>
+            <!--FORMULARIO DE CONTATO-->
+            <div id="contact">
+                <h1>Entre em contato conosco</h1>
+                <form action="entrar-contato.php" method="get" id="formContato">
+                    <label for="txtNome">
+                        <p>Nome</p>
+                        <input id="txtNome" type="text" name="txtNome" placeholder="Seu nome...">
+                    </label>
+                    <label for="txtEmail">
+                        <p>Email</p>
+                        <input id="txtEmail" type="email" name="txtEmail" placeholder="Seu email...">
+                    </label>
+                    <label for="txtAssunto">
+                        <p>Assunto</p>
+                        <input id="txtAssunto" type="text" name="txtAssunto" placeholder="Assunto...">
+                    </label><br>
+                    <label for="txtMensagem">
+                        <p>Mensagem</p>
+                        <textarea id="txtMensagem" name="txtMensagem" cols="90" rows="10"
+                            placeholder="Sua mensagem..."></textarea>
+                    </label><br><br>
+                    <input class="button" type="submit" value="Enviar">
+                    <script src="script.js"></script>
+                </form>
+            </div>
+
+        </section>
+
+        <footer id="bottom-container">
+            <p style="color: white;">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                - Kledge Devs - Upado no Github para ser reutilizado.
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
