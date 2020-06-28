@@ -37,10 +37,10 @@ function validar(retornovalores) {
     }
 
     if (erros.length > 0) {
-        var listaerros = document.getElementById('listaerros');
+        var listaerros = document.getElementById('errors');
         var ul = document.createElement('ul');
         for (let i = 0; i < erros.length; i++) {
-            listaerros.classList.add('listaerros2');
+            listaerros.classList.add('errors2');
             var li = document.createElement('li');
             li.innerHTML = erros[i];
             ul.appendChild(li);
@@ -48,8 +48,8 @@ function validar(retornovalores) {
         }
         listaerros.appendChild(ul);
     } else {
-        alert('Mensagem enviada com sucesso. Muito obrigado!')
-        return true
+        alert('Mensagem enviada com sucesso. Muito obrigado!');
+        return true;
     }
 }
 
