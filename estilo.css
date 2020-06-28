@@ -1,9 +1,9 @@
 /*CONFIG GERAISE TOPO*/
 * {
-    padding:0;
-    margin:0;
-    list-style:none;
-    }
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
 body {
     margin: 0 auto;
@@ -323,7 +323,7 @@ textarea {
     }
 }
 
-.conheca-nos ul li {
+.know-us ul li {
     list-style: none;
     display: flex;
 }
