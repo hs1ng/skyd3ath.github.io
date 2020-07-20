@@ -45,8 +45,12 @@ nav.navbar-transparent {
         margin: 0 auto;
     }
 
-    .fa .fa-facebook {
-        font-size: 10px;
+    section {
+        margin-right: 40px;
+    }
+
+    hr {
+        width: 300px;
     }
 }
 
