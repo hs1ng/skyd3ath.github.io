@@ -28,3 +28,69 @@ nav.navbar-transparent {
     border-right: 0.01em solid rgb(255, 255, 255);
     height: 120px
 }
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .divisor2 {
+        border: none;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .fa .fa-facebook {
+        font-size: 10px;
+    }
+}
+
+/*/ Small devices (landscape phones, 576px and up)/*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .divisor2 {
+        border: none;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+/*/ Medium devices (tablets, 768px and up) /*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 40px;
+    }
+
+
+    .container {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+}
+
+/*/ Large devices (desktops, 992px and up) /*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+
+}
+
+/*/ Extra large devices (large desktops, 1200px and up) /*/
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
